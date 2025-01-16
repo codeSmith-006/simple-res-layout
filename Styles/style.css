@@ -60,6 +60,8 @@ html {
     cursor: pointer;
 }
 
+/* For part two */
+
 .page-one .part-two {
     max-width: 1400px;
     height: 50vh;
@@ -104,4 +106,101 @@ html {
     background-color: aquamarine;
     margin-top: 1rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .page-one .part-one {
+        width: 576px;
+        height: 80vh;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .page-one .part-one .image {
+        width: 545px;
+        height: 50vh;
+        background: url(../Assets/junk\ food.jpg);
+        background-position: center;
+        border-radius: 5px;
+    }
+
+    .page-one .part-one .content {
+        width: 545px;
+        height: 30vh;
+    }
+
+    .page-one .part-one .content .heading {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+    }
+
+    .page-one .part-one .content .description {
+        font-size: 5rem;
+        margin-top: 1rem;
+    }
+
+    .page-one .part-one .content button {
+        all: unset;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: aquamarine; 
+        margin-top: 1rem;
+        cursor: pointer;
+        font-size: 4rem;
+    }
+
+    .page-one .part-two {
+        width: 576px;
+        height: 80vh;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .page-one .part-two .image {
+        width: 545px;
+        height: 50vh;
+        background: url(../Assets/junk\ food.jpg);
+        background-position: center;
+        border-radius: 5px;
+    }
+
+    .page-one .part-two .content {
+        width: 545px;
+        height: 30vh;
+    }
+
+    .page-one .part-two .content .heading {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+    }
+
+    .page-one .part-two .content .description {
+        font-size: 5rem;
+        margin-top: 1rem;
+    }
+
+    .page-one .part-two .content button {
+        all: unset;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: aquamarine; 
+        margin-top: 1rem;
+        cursor: pointer;
+        font-size: 4rem;
+    }
+
+
 }
