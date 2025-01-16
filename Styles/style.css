@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 1vw; /* font-size changes relative to the viewport width */
+}
+
+.page-one {
+    max-width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.page-one .part-one {
+    max-width: 1400px;
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.page-one .part-one .image {
+    width: 600px;
+    height: 45vh;
+    background: url(/Assets/junk\ food.jpg);
+    background-position: center;
+    border-radius: 5px;
+}
+
+.page-one .part-one .content {
+    width: 1000px;
+    height: 45vh;
+}
+
+.page-one .part-one .content .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+}
+
+.page-one .part-one .content .description {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.page-one .part-one .content button {
+    all: unset;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine; 
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.page-one .part-two {
+    max-width: 1400px;
+    height: 50vh;
+    /* background-color: rgb(102, 0, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 12px;
+}
+
+.page-one .part-two .image {
+    width: 600px;
+    height: 45vh;
+    background: url(/Assets/healty\ food.jpg);
+    background-position: center;
+    border-radius: 5px;
+}
+
+.page-one .part-two .content {
+    width: 1000px;
+    height: 45vh;
+}
+
+.page-one .part-two .content .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+}
+
+.page-one .part-two .content .description {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.page-one .part-two .content button {
+    all: unset;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    margin-top: 1rem;
+    cursor: pointer;
+}
